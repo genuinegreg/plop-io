@@ -3,6 +3,9 @@ export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
     content: {
         // https://content.nuxtjs.org/api/configuration 
-        documentDriven: true
+        documentDriven: true,
+        markdown: {
+            anchorLinks: false
+        }
     }
 })

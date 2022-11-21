@@ -4,7 +4,7 @@
     <h1 class="text-2xl">Plop.io</h1>
     <section class="prose py-4">
 
-      <ContentDoc class="prose" path="/" />
+      <ContentDoc class="prose prose-a:text-blue-600" path="/" />
         
 
       <!-- <h3 class="text-lg">Some stuff on the internet ⸮</h3>
