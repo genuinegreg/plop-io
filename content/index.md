@@ -1,5 +1,5 @@
 
-### Some stuff on the internet ⸮
+## Some stuff on the internet ⸮
 
 Some stupid stuff I build over the years...
 
