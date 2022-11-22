@@ -8,14 +8,24 @@
     <!-- <NuxtWelcome /> -->
 
     <menu class="prose">
-      <h1>Plop.io</h1>
+      <h1> <a href="/"> Plop.io </a></h1>
     </menu>
-    <content class="">
+    <content>
 
-      <ContentDoc class="prose prose-a:text-blue-600" path="/" />
+      <NuxtPage class="prose">
+        <template #empty>
+          <h4>Document is empty</h4>
+        </template>
+      </NuxtPage>
     </content>
   </main>
 </template>
+
+
+
+
+
+
 
 
 
